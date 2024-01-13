@@ -79,7 +79,7 @@ body {
   background-color: rgba(255, 144, 14, 0.1);
 }
 .navigation {
-  padding: 50px 0 100px;
+  padding: 50px 10px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -131,6 +131,10 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
+  padding: 0 10px 50px;
+}
+.Quick_list_of_Our_Features-contant {
+  padding: 0 10px;
 }
 .Quick_list_of_Our_Features-contant p {
   margin: 25px 0 30px;
@@ -151,7 +155,8 @@ body {
   .banner_contant p {
     padding: 0 1rem;
   }
-  .navigation {
+  .navigation,
+  .Quick_list_of_Our_Features {
     flex-direction: column;
   }
 }

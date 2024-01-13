@@ -114,7 +114,6 @@ body {
 }
 .navigation-img img {
   border-radius: 10px;
-
   width: 100%;
 }
 /* Header style End  */
@@ -133,7 +132,6 @@ body {
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
-
 .Quick_list_of_Our_Features-contant p {
   margin: 25px 0 30px;
 }

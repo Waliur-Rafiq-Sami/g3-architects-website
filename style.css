@@ -5,10 +5,11 @@
   font-family: "Work Sans", sans-serif;
 }
 /* body  */
-body,
-html {
-  font-size: 1px;
+html,
+body {
+  font-size: 10px;
 }
+
 /* Button  */
 .btn {
   color: #fff;
@@ -37,19 +38,19 @@ html {
 }
 /* Font Size Style Sector */
 .text16-size {
-  font-size: 16rem;
+  font-size: 1.6rem;
 }
 .text18-size {
-  font-size: 18rem;
+  font-size: 1.8rem;
 }
 .text20-size {
-  font-size: 20rem;
+  font-size: 2rem;
 }
 .text45-size {
-  font-size: 45rem;
+  font-size: 4.5rem;
 }
 .text65-size {
-  font-size: 65rem;
+  font-size: 65px;
 }
 /* Color Style Sector */
 .white_col {
@@ -106,9 +107,34 @@ html {
 }
 /* banner_container IMAGE style starts  */
 .navigation-img {
-  padding-top: 50px;
+  padding: 50px 10px;
 }
 .navigation-img img {
+  border-radius: 10px;
+
   width: 100%;
 }
 /* Header style End  */
+/* Media Screen 576px [MOBILE] style Starts  */
+@media screen and (max-width: 570px) {
+  html,
+  body {
+    font-size: 8px;
+  }
+  .navigation h2 {
+    padding-bottom: 20px;
+  }
+  .banner_contant h3 {
+    font-size: 5rem;
+  }
+  .banner_contant p {
+    padding: 0 1rem;
+  }
+  .navigation {
+    flex-direction: column;
+  }
+}
+/* Media Screen 576px style End  */
+/* Media Screen 576px [MOBILE] style Starts  */
+
+/* Media Screen 576px style End  */

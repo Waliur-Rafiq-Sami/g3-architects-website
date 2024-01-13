@@ -120,7 +120,7 @@ body {
 /* Main Style Starts Hare  */
 .Quick_list_of_Our_Features {
   margin: 85px 0 130px;
-  display: flex;
+  /* display: flex; */
   justify-content: space-around;
   align-items: center;
 }
@@ -128,7 +128,7 @@ body {
   width: 100%;
 }
 .Quick_list_of_Our_Features-img {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }

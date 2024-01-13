@@ -68,6 +68,9 @@ body {
 .yellow_col {
   color: #ff900e;
 }
+.gray_light_col {
+  color: #727272;
+}
 /* share style End */
 
 /* Header style starts  */
@@ -115,6 +118,26 @@ body {
   width: 100%;
 }
 /* Header style End  */
+/* Main Style Starts Hare  */
+.Quick_list_of_Our_Features {
+  margin: 85px 0 130px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Quick_list_of_Our_Features-img img {
+  width: 100%;
+}
+.Quick_list_of_Our_Features-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.Quick_list_of_Our_Features-contant p {
+  margin: 25px 0 30px;
+}
+/* Main Style END Hare  */
 /* Media Screen 576px [MOBILE] style Starts  */
 @media screen and (max-width: 570px) {
   html,

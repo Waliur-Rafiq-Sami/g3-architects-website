@@ -118,6 +118,7 @@ body {
 }
 /* Header style End  */
 /* Main Style Starts Hare  */
+/* Quick_list_of_Our_Features */
 .Quick_list_of_Our_Features {
   margin: 85px 0 130px;
   display: flex;
@@ -139,7 +140,17 @@ body {
 .Quick_list_of_Our_Features-contant p {
   margin: 25px 0 30px;
 }
+/* Quick_list_of_Our_Features END */
+/* Features SEction style Starts */
+.features_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Features SEction style END */
+
 /* Main Style END Hare  */
+
 /* Media Screen 576px [MOBILE] style Starts  */
 @media screen and (max-width: 570px) {
   html,

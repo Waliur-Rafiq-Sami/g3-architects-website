@@ -126,6 +126,7 @@ body {
   align-items: center;
 }
 .Quick_list_of_Our_Features-img img {
+  border-radius: 10px;
   width: 100%;
 }
 .Quick_list_of_Our_Features-img {
@@ -144,9 +145,61 @@ body {
 /* Features SEction style Starts */
 .features_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  gap: 145px;
 }
+.features_contant {
+  max-width: 58rem;
+  padding-bottom: 70px;
+  margin-bottom: 130px;
+}
+.features_contant p {
+  font-size: 16px;
+  color: #727272;
+}
+.features_contant h5 {
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+.features_contant .frature_contant-sec_0 h2 {
+  border-left: 5px solid #ff900e;
+  padding-left: 2rem;
+  margin-bottom: 25px;
+}
+.features_contant div {
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.features_contant > div.frature_contant-sec_0 {
+  margin-top: 20px;
+  padding: 30px;
+  border-radius: none;
+  box-shadow: none;
+}
+
+/* features_img and button SEction style Starts */
+.features_img img {
+  width: 100%;
+  height: 100%;
+}
+.features_img{
+  height: 100%;
+}
+.btn10 {
+  right: 80px;
+  top: -80px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  padding: 45px;
+}
+
+/* features_img and button SEction style END */
 /* Features SEction style END */
 
 /* Main Style END Hare  */

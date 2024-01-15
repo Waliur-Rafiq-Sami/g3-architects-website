@@ -272,7 +272,7 @@ footer p {
   }
 }
 @media screen and (max-width: 868px) and (min-width: 570px) {
-  .Quick_list_of_Our_Features{
+  .Quick_list_of_Our_Features {
     flex-direction: column;
   }
 }

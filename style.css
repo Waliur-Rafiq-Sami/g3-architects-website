@@ -181,9 +181,11 @@ body {
   border-radius: none;
   box-shadow: none;
 }
-
-/* features_img and button SEction style Starts */
+/* Features SEction style END */
 /* Some_Facts and button SEction style Starts */
+.facts {
+  margin: 0 10px;
+}
 .facts h3 {
   margin-bottom: 25px;
 }
@@ -233,17 +235,95 @@ body {
   position: relative;
   padding: 45px;
 }
-
-/* features_img and button SEction style END */
-/* Features SEction style END */
-
+/* Our_Sponspors */
+.Our_Sponspors {
+  text-align: center;
+}
+.Our_Sponspors h3 {
+  margin-bottom: 25px;
+}
+.Our_Sponspors p {
+  padding: 0 10px;
+  margin-bottom: 50px;
+}
+#sponers {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 130px;
+}
+/* Our_Sponspors End */
 /* Main Style END Hare  */
+/* Footer Style Starts Hare  */
+footer {
+  text-align: center;
+  border-radius: 8px;
+  background: #fff4e7;
+}
+footer p {
+  margin-bottom: 150px;
+  padding: 40px 0;
+}
+/* Footer Style END Hare  */
 
+/* Media Screen 576px [MOBILE] style Starts  */
+@media screen and (max-width: 1472px) and (min-width: 1050px) {
+  .features_container {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 868px) and (min-width: 570px) {
+  .Quick_list_of_Our_Features{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1050px) and (min-width: 570px) {
+  .box_contant {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .box_contant div {
+    width: 100%;
+  }
+  .facts p {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 1320px) and (min-width: 570px) {
+  .features_container {
+    display: block;
+  }
+  .features_contant {
+    max-width: 90%;
+    margin: 0 50px;
+  }
+  .features_img {
+    margin: 0 100px;
+  }
+  #sponers {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 /* Media Screen 576px [MOBILE] style Starts  */
 @media screen and (max-width: 570px) {
   html,
   body {
     font-size: 8px;
+  }
+  .box_contant div {
+    width: 100%;
+  }
+  .box_contant {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #sponers {
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
   }
   .navigation h2 {
     padding-bottom: 20px;
@@ -254,8 +334,26 @@ body {
   .banner_contant p {
     padding: 0 1rem;
   }
+  .features_container {
+    gap: 10px;
+  }
+  .features_contant {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .box h2 {
+    font-size: 30px;
+  }
+  .features_img {
+  }
+  .btn10 {
+    margin: -20px 0 50px;
+    position: static;
+  }
   .navigation,
-  .Quick_list_of_Our_Features {
+  .Quick_list_of_Our_Features,
+  .features_container,
+  #sponers {
     flex-direction: column;
   }
 }
